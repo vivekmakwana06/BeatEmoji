@@ -128,12 +128,12 @@ class _MusicGridPageState extends State<MusicGridPage>
               padding: EdgeInsets.symmetric(horizontal: 16),
               child: TabBar(
                 controller: _tabController,
-                labelColor: Colors.white, // Customize text color
-                indicatorColor: Color(0xFF27bc5c), // Customize indicator color
+                labelColor: Colors.white,
+                indicatorColor: Color(0xFF27bc5c),
                 tabs: [
                   Tab(text: 'Trending Songs'),
                   Tab(text: 'Custom Collection'),
-                ],
+                ],      
               ),
             ),
           ),
@@ -601,7 +601,7 @@ class SecondPage extends StatelessWidget {
               ),
             ),
           ],
-        ),            
+        ),
       ),
     );
   }
