@@ -337,7 +337,7 @@ class _AuthGateState extends State<AuthGate> {
                 icon: Icons.email,
                 validator: validateEmail,
                 showPassword: false,
-                onTogglePassword: () {},                                        
+                onTogglePassword: () {},
               ),
               const SizedBox(height: 25),
               buildTextField(
@@ -374,7 +374,7 @@ class _AuthGateState extends State<AuthGate> {
               ElevatedButton(
                 onPressed: _submitForm,
                 style: ElevatedButton.styleFrom(
-                  primary: Color(0xFF27bc5c), // background color
+                  backgroundColor: Color(0xFF27bc5c), // background color
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20.0),
                   ),

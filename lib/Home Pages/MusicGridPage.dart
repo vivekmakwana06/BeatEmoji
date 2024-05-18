@@ -232,7 +232,7 @@ class _MusicGridPageState extends State<MusicGridPage>
                                         padding: const EdgeInsets.all(18.0),
                                         child: ElevatedButton(
                                           style: ElevatedButton.styleFrom(
-                                            primary: const Color(0xFF27bc5c),
+                                            backgroundColor: const Color(0xFF27bc5c),
                                             shape: RoundedRectangleBorder(
                                               borderRadius:
                                                   BorderRadius.circular(28),

@@ -547,8 +547,7 @@ class _FileUploadPageState extends State<FileUploadPage> {
                         );
                       },
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.red, // Set the button color
-                        onPrimary: Colors.white, // Set the text color
+                        foregroundColor: Colors.white, backgroundColor: Colors.red, // Set the text color
                       ),
                       child: Text(
                         'Logout',
